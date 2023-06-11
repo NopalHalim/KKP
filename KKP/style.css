@@ -1,0 +1,19 @@
+nav {
+  background-color: #0079ff;
+}
+
+#menu {
+  display: flex;
+}
+
+#aside {
+  width: 25%;
+  height: 100vh;
+  background-color: #00dfa2;
+}
+
+#main {
+  width: 75%;
+  height: 100vh;
+  background-color: cadetblue;
+}

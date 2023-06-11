@@ -1,0 +1,51 @@
+body {
+  background-color: azure;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 18rem;
+  border-color: black;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+.card-title {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card-body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn1 {
+  width: 100%;
+  padding: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: rgb(27, 207, 27);
+}
+
+.btn2 {
+  font-size: small;
+  background-color: none;
+}
