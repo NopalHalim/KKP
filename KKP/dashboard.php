@@ -35,7 +35,7 @@
       <!-- start Aside -->
       <div id="aside" class="">
         <!-- Start Account -->
-        <div id="account" class="d-flex justify-content-evenly align-items-center py-4">
+        <div id="account" class="d-flex justify-content-evenly align-items-center py-2">
           <div id="gambar">
             <a href="#" class="text-dark">
               <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
@@ -51,9 +51,10 @@
             </div>
           </div>
         </div>
+        <hr>
         <!-- End Account -->
         <!-- Start Dashboard -->
-        <div id="dashboard" class="d-flex flex-column gap-3 pt-5">
+        <div id="dashboard" class="d-flex flex-column gap-3 pt-1">
           <!-- Start Menu Dashboard -->
           <div id="menu-dashboard" class="d-flex justify-content-start gap-4 ms-4 align-items-center">
             <div class="icon">
@@ -66,10 +67,10 @@
           </div>
           <!-- End Menu Dashboard -->
           <!-- Start Menu Enkripsi -->
-          <div id="menu-file" class="d-flex justify-content-start gap-4 ms-4 align-items-center">
+          <div id="menu-enkripsi" class="d-flex justify-content-start gap-4 ms-5 align-items-center ">
             <div class="icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
-                <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
               </svg>
             </div>
             <div class="text-enkripsi">
@@ -78,19 +79,19 @@
           </div>
           <!-- End Menu Enkripsi -->
           <!-- Start Menu Dekripsi -->
-          <div id="menu-file" class="d-flex justify-content-start gap-4 ms-4 align-items-center">
+          <div id="menu-deskripsi" class="d-flex justify-content-start gap-4 ms-5 align-items-center">
             <div class="icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
-                <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-file-earmark-code-fill" viewBox="0 0 16 16">
+                <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM6.646 7.646a.5.5 0 1 1 .708.708L5.707 10l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0 2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 10 8.646 8.354a.5.5 0 1 1 .708-.708z" />
               </svg>
             </div>
-            <div class="text-enkripsi">
-              <span><a href="" class="text-decoration-none text-black"> Enkripsi </a></span>
+            <div class="text-deskripsi">
+              <span><a href="" class="text-decoration-none text-black"> Deskripsi </a></span>
             </div>
           </div>
           <!-- End Menu Dekripsi -->
           <!-- Start Menu Daftar List -->
-          <div id="menu-daftar-list" class="d-flex justify-content-start gap-4 ms-4 align-items-center">
+          <div id="menu-daftar-list" class="d-flex justify-content-start gap-4 ms-5 align-items-center">
             <div class="icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
                 <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
@@ -103,7 +104,7 @@
           </div>
           <!-- End Menu Daftar Isi -->
           <!-- Start Info -->
-          <div id="menu-info" class="d-flex justify-content-start gap-4 ms-4 align-items-center">
+          <div id="menu-info" class="d-flex justify-content-start gap-4 ms-5 align-items-center">
             <div class="icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -117,7 +118,7 @@
 
           <!-- End Info -->
           <!-- Start Bantuan -->
-          <div id="menu-bantuan" class="d-flex justify-content-start gap-4 ms-4 align-items-center">
+          <div id="menu-bantuan" class="d-flex justify-content-start gap-4 ms-5 align-items-center">
             <div class="icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
@@ -125,7 +126,7 @@
               </svg>
             </div>
             <div class="text-bantuan">
-              <span><a href="" class="text-decoration-none text-black">Bantuan</a></span>
+              <span><a href="" class="text-decoration-none text-black font">Bantuan</a></span>
             </div>
           </div>
           <!-- End Bantuan -->
