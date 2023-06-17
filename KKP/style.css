@@ -112,4 +112,36 @@ nav {
 #main {
   width: 75%;
   height: 100vh;
+  text-align: center;
+  gap: 50px;
+  background-color: rgb(15 118 110);
+}
+
+#header-main {
+  height: 4rem;
+  width: 100%;
+}
+
+#footer {
+  background-color: #a7ecee;
+}
+
+.detail-statistik {
+  height: 4rem;
+  width: 13rem;
+}
+
+.detail-icon {
+  width: 4rem;
+  background-color: rgb(8 145 178);
+  height: 100%;
+}
+
+.detail-icon svg {
+  margin: 0 auto;
+}
+
+footer {
+  font-weight: 600;
+  text-align: center;
 }

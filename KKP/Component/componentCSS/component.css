@@ -1,0 +1,116 @@
+nav {
+  background-color: #9ac5f4;
+}
+
+#menu {
+  display: flex;
+}
+
+#aside {
+  width: 25%;
+  height: 100vh;
+  background-color: #99dbf5;
+}
+
+/* Menu Eknripsi */
+#menu-enkripsi {
+  transition: all;
+  -webkit-transition: all;
+  -moz-transition: all;
+  -ms-transition: all;
+  -o-transition: all;
+  transition-duration: 0.3s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 12rem;
+}
+
+#menu-enkripsi:hover {
+  background-color: rgb(148 163 184);
+  padding: 4px;
+}
+
+/* Menu Dekripsi */
+
+#menu-deskripsi {
+  transition: all;
+  -webkit-transition: all;
+  -moz-transition: all;
+  -ms-transition: all;
+  -o-transition: all;
+  transition-duration: 0.3s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 12rem;
+}
+
+#menu-deskripsi:hover {
+  background-color: rgb(148 163 184);
+  padding: 4px;
+}
+
+/* Menu Daftar List */
+
+#menu-daftar-list {
+  transition: all;
+  transition-duration: 0.3s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 12rem;
+}
+
+#menu-daftar-list:hover {
+  background-color: rgb(148 163 184);
+  padding: 4px;
+}
+
+/* Menu Info */
+
+#menu-info {
+  transition: all;
+  transition-duration: 0.3s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 12rem;
+}
+
+#menu-info:hover {
+  background-color: rgb(148 163 184);
+  padding: 4px;
+}
+
+/* Menu Bantuan */
+
+#menu-bantuan {
+  transition: all;
+  transition-duration: 0.3s;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 12rem;
+}
+
+#menu-bantuan:hover {
+  background-color: rgb(148 163 184);
+  padding: 4px;
+}
+
+#main {
+  width: 75%;
+  height: 100vh;
+  background-color: aquamarine;
+}
