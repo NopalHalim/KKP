@@ -36,7 +36,7 @@
         <!-- start Aside -->
         <div id="aside" class="">
           <!-- Start Account -->
-          <div id="account" class="d-flex justify-content-evenly align-items-center py-2">
+          <div id="account" class="d-flex justify-content-evenly align-items-center py-2 overflow-hidden">
             <div id="gambar">
               <a href="#" class="text-dark">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
@@ -55,7 +55,7 @@
           <hr />
           <!-- End Account -->
           <!-- Start Dashboard -->
-          <div id="dashboard" class="d-flex flex-column gap-3 pt-1">
+          <div id="dashboard" class="d-flex flex-column gap-3 pt-1 overflow-hidden">
             <!-- Start Menu Dashboard -->
             <div id="menu-dashboard" class="d-flex justify-content-start gap-4 ms-4 align-items-center">
               <div class="icon">
@@ -82,7 +82,7 @@
                 </svg>
               </div>
               <div class="text-enkripsi">
-                <span><a href="" class="text-decoration-none text-black"> Enkripsi </a></span>
+                <span><a href="./enkripsi.html" class="text-decoration-none text-black"> Enkripsi </a></span>
               </div>
             </div>
             <!-- End Menu Enkripsi -->
@@ -96,7 +96,7 @@
                 </svg>
               </div>
               <div class="text-deskripsi">
-                <span><a href="" class="text-decoration-none text-black"> Deskripsi </a></span>
+                <span><a href="./deskripsi.html" class="text-decoration-none text-black"> Deskripsi </a></span>
               </div>
             </div>
             <!-- End Menu Dekripsi -->
@@ -150,11 +150,79 @@
           <!-- End Dashboard -->
         </div>
         <!-- End Aside -->
-        <!-- Start Main -->
-        <div id="main"></div>
-      </div>
 
+        <div id="main" class="d-flex flex-column align-content-center align-items-center">
+          <!-- Start Header Main -->
+          <div id="header-main" class="bg-light shadow-sm d-flex justify-content-between">
+            <div class="d-flex justify-content-start gap-2 ms-3 align-items-center my-auto">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                  <path
+                    d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+                  />
+                </svg>
+              </div>
+              <div class="text-header-menu"><span class="">Enkripsi</span></div>
+            </div>
+            <div id="parameter-lokasi" class="d-flex justify-content-end me-2 gap-2 align-content-center align-items-center">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                  <path
+                    d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+                  />
+                </svg>
+              </div>
+              <span class="text-lokasi"><a href="../dashboard.html" style="font-size: small">/Dashboard</a></span>
+              <span class="text-lokasi"><a href="#" style="font-size: small">/Enkripsi</a></span>
+            </div>
+          </div>
+          <!-- End Header Main -->
+
+          <!-- Start Enkripsi -->
+          <div id="content-enkripsi" class="bg-light py-4 w-75">
+            <h1 class="fs-5 text-start ms-3">From Enkripsi</h1>
+            <hr />
+            <form action="" method="post" class="d-flex flex-column justify-content-start align-content-start gap-3 mx-3">
+              <!-- Start Tanggal -->
+              <div class="text-start">
+                <label for="tanggal">Tanggal :</label>
+                <input type="date" name="tanggal" id="tanggal" />
+              </div>
+              <!-- End Tanggal -->
+              <!-- Start Choose file -->
+              <div class="text-start">
+                <label for="file">Pilih File :</label>
+                <input type="file" name="file" id="pilih-file" />
+              </div>
+              <!-- End Choose File -->
+              <!-- Start Password -->
+              <div class="text-start">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password-enkripsi" />
+              </div>
+              <!-- End Password -->
+              <!-- Start Deskripsi -->
+              <div class="text-start">
+                <label for="text">Password</label>
+                <textarea name="text" id="text-enkripsi" cols="30" rows="2"></textarea>
+              </div>
+              <!-- End Deskripsi -->
+              <!-- Start Button -->
+              <div class="text-start">
+                <input type="submit" name="submit" id="submit-enkripsi" class="btn btn-primary" />
+              </div>
+              <!-- End Button -->
+            </form>
+          </div>
+          <!-- End Enkripsi -->
+        </div>
+      </div>
       <!-- End Menu -->
+      <!-- Start Footer -->
+      <div id="footer" class="foter text-center">
+        <footer><span>Copyright 2023 - PT SUBUR PROGRES - All Rights Reserved</span></footer>
+      </div>
+      <!-- End Footer -->
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

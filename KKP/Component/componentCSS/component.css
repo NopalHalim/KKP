@@ -109,8 +109,50 @@ nav {
   padding: 4px;
 }
 
+/* Menu Main */
+
 #main {
   width: 75%;
   height: 100vh;
-  background-color: aquamarine;
+  text-align: center;
+  gap: 50px;
+  background-color: rgb(15 118 110);
+}
+
+#header-main {
+  height: 4rem;
+  width: 100%;
+}
+
+#footer {
+  background-color: #a7ecee;
+}
+
+.detail-statistik {
+  height: 4rem;
+  width: 13rem;
+}
+
+.detail-icon {
+  width: 4rem;
+  background-color: rgb(8 145 178);
+  height: 100%;
+}
+
+.detail-icon svg {
+  margin: 0 auto;
+}
+
+/* Gaya untuk label */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Gaya untuk input tanggal */
+#tanggal {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
 }
